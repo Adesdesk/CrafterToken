@@ -1,6 +1,6 @@
 # Project Title
 
-Creating a Token in Solidity
+CrafterToken - A Token created in Solidity
 
 ## Description
 
@@ -30,7 +30,8 @@ A simple token smart contract implemented in solidity to meet the following requ
 
 * Compile the contract by clicking on the "Solidity Compiler" button on the outermost left menu bar (or use the shortcut "Ctrl + S")
 * Just below the "Solidity Compiler" button, find and use the "Deploy and Run transactions" button to deploy the smart contract
-* On successful deployment, find and click on the "Deployed Contracts" heading to see a drop down of an interface through which the contract can be interacted with
+* On successful deployment, find and click on the "Deployed Contracts" heading to see a drop down of an interface through which the contract can be interacted 
+with
 * Find the provided test accounts under the "ACCOUNTS" field of the interface on the left
 * Copy any of the addresses listed in the format 0x5B3...eddC4 (100 ether) for use as input to the interfaces that require an address when interacting with the contract
 * Test interact with the various functions of the smart contract
@@ -39,7 +40,7 @@ A simple token smart contract implemented in solidity to meet the following requ
 
 Ensure that the smart contract file is names with a ".sol" file extension
 
-## Authors
+## Author(s)
 
 Contributor's name and contact info:
 
