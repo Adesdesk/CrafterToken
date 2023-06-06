@@ -31,23 +31,18 @@ A simple token smart contract implemented in solidity to meet the following requ
 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
-
 contract MyToken {
-
     // public variables here
     string public tokenName = "CrafterToken";
     string public tokenAbbreviation = "CRT";
     uint public totalSupply = 0;
-
     // mapping variable here
     mapping(address => uint) public balances;
-
     // mint function
     function mint(address _address, uint _value) public {
         totalSupply += _value;
         balances[_address] += _value;
     }
-
     // burn function
     function burn(address _address, uint _value) public {
         if (balances[_address] >= _value ) {
@@ -55,7 +50,6 @@ contract MyToken {
             balances[_address] -= _value;
         }
     }
-
 }
 
 * Compile the contract by clicking on the "Solidity Compiler" button on the outermost left menu bar (or use the shortcut "Ctrl + S")
