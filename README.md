@@ -68,7 +68,7 @@ with
 
 ## Help
 
-Ensure that the smart contract file is names with a ".sol" file extension
+Ensure that the smart contract file is named with a ".sol" file extension
 
 ## Author(s)
 
